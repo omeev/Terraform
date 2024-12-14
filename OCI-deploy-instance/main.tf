@@ -36,9 +36,3 @@ terraform {
 provider "oci" {
   region = var.region
 }
-
-resource "oci_core_vcn" "virtual" {
-  display_name = "VSCN01"
-  compartment_id = var.compartment_id
-  
-}
