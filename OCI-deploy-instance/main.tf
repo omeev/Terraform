@@ -12,7 +12,7 @@ provider "oci" {
 }
 
 resource "oci_core_vcn" "virtual" {
-    display_name = "VSCN01"
+    display_name = "VM-1"
     compartment_id = var.compartment_id
     is_ipv6enabled = "Yes"   
 }
